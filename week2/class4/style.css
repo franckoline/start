@@ -1,0 +1,35 @@
+body{
+    /* background-image: url('img2.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    justify-content: center;
+}
+#mainbody{
+    padding: 20px;
+    text-align: center;
+    background-color: blue;
+}
+#bio{
+    background-color: white;
+    border: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+    margin-bottom: 10px;
+    float: left;
+    width: 47%;
+}
+
+.reg{
+    background-color: pink;
+    text-align: right;
+    width: 47%;
+    padding: 10px 5px 10px 5px;
+    float: left;
+}
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+  }

@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url('background.jpg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    line-height: 1.5;
+    font-weight: 100;
+    text-align: justify;
+    overflow: scroll;
+}
+p{
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 55px;
+    color: #65d9be;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 45px;
+    color: #65d9be;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+/* Katya style */
+img {
+    width: 99%;
+    border-radius: 30px;
+    margin: auto;
+}
+ .main {
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.info {
+    max-width: 60%;
+    background-color: #7dbac8;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    float: left;
+}
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  } */
+.navbar{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+.navlogo{
+    /* width: 20%; */
+    float: left;
+    padding: 14px 16px;
+    color: #fff;
+    background-color: #04AA6D;
+
+}
+.navlist{
+    background-color: #65d9be;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #fff;
+  }
+/* Polaris */
+.polaris{
+    margin: 0;
+    height: 100vh;
+    background-color: rgba(115, 112, 112, 0.2);
+    text-align: center;
+}
+
+.content{
+    margin-top: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+button{
+    background-color: aqua;
+    border-radius: 50px;
+    border-color: aqua;
+    width: 70px;
+    height: 70px;
+}
+
+.company{
+    background-color: #fff;
+    padding: 100px;
+}
+.aboutC{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+.photoC{
+    margin: auto;
+    justify-content: space-evenly;
+
+}
+.card{
+    width: 30%;
+    float: left;
+    margin: 1.5%;
+    /* gap: 2; */
+    /* column-gap: 20px; */
+}
+.aboutimg{
+    width: 90%;
+    align-items: center;
+    margin-left: 5px;
+}
+section{
+    max-width: 80%;
+    margin: auto;
+}
+
+.card_head{
+    /* background-color: aqua; */
+    height: 50px;
+    padding: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    }
+.iconimg{
+width: 50px;
+height: 50px;
+float: left;
+background-color: #65d9be;
+margin-left: 10px;
+margin-right: 10px;
+border-radius: 50px;
+text-align: center;
+}
+.title{
+padding-top: 5px;
+font-size: 20px;
+font-weight: lighter;
+}
+.card_body{
+
+    /* line-height: 1.5; */
+}
+
+.cardimg{
+    width: 60%;
+}
