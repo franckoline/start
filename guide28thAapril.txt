@@ -2,6 +2,10 @@
 Session 1 Frontend
 link to guide: https://www.w3schools.com/howto/howto_css_icon_bar.asp
 Git Repository -> 2session
-Menus 4wks -> 12session
+Menus
+Image
+Buttons
+Forms
+
 Javascript 6wks -> 18session
 React 4wks -> 12session
