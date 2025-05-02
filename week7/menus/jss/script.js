@@ -1,3 +1,7 @@
+function example(){
+
+}
+
 function subject(subjectName, elmnt, color) {
     // Hide all elements with class="tabcontent" by default */
     var i, tabcontent, tablinks;
@@ -21,3 +25,17 @@ function subject(subjectName, elmnt, color) {
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+
+
+
+  // Navigation Overlay
+  /* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("thisNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("thisNav").style.width = "0%";
+}
