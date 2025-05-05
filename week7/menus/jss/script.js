@@ -39,3 +39,13 @@ function openNav() {
 function closeNav() {
   document.getElementById("thisNav").style.width = "0%";
 }
+
+// Mobile Menu bar
+function mobileMenu() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
