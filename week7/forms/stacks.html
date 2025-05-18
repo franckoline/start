@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Forms</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="rowbar">
+        <div class="topnav">
+            <a href="index.html">Forms</a>
+            <a href="index.html">Sign-Up</a>
+            <a href="searchbar.html">Searchbar</a>
+            <a href="multi-steps.html">Multi-Steps</a>
+            <a href="stacks.html" class="active">Stacks</a>
+            <a href="contactForm.html">Contact</a>
+        </div>
+    </div>
+    <div class="container">
+        
+        <div class="stack-container">
+            <div style="text-align: center; margin-bottom: 5px;">
+                            <h3>Stacked Form</h3>
+        <small>Web form where form elements like labels and input fields are vertically aligned,<br> with the label above the input field</small>
+
+            </div>
+            <form>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+
+    <script src="scripts/script.js" async defer></script>
+</body>
+
+</html>

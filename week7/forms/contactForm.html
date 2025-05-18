@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Forms</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 80%;
+            margin: auto;
+        }
+
+        .form-inline {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+        }
+
+        .form-inline label {
+            margin: 5px 10px 5px 0;
+        }
+
+        .form-inline input {
+            vertical-align: middle;
+            margin: 5px 10px 5px 0;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        .form-inline button {
+            padding: 10px 20px;
+            background-color: dodgerblue;
+            border: 1px solid #ddd;
+            color: white;
+            cursor: pointer;
+        }
+
+        .form-inline button:hover {
+            background-color: royalblue;
+        }
+
+        @media (max-width: 800px) {
+            .form-inline input {
+                margin: 10px 0;
+            }
+
+            .form-inline {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
+    </style> -->
+</head>
+
+<body>
+    <div class="rowbar">
+        <div class="topnav">
+            <a href="index.html">Forms</a>
+            <a href="index.html">Sign-Up</a>
+            <a href="searchbar.html">Searchbar</a>
+            <a href="multi-steps.html">Multi-Steps</a>
+            <a href="stacks.html">Stacks</a>
+            <a href="contactForm.html" class="active">Contact</a>
+        </div>
+    </div>
+    <div class="container">
+        <div style="">
+            <form class="form-inline">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter email" name="email">
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd" placeholder="Enter password" name="pswd">
+                <label>
+                    <input type="checkbox" name="remember"> Remember me
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <script src="scripts/script.js" async defer></script>
+</body>
+
+</html>

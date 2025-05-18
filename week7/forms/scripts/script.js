@@ -1,12 +1,3 @@
-function mobileMenu() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-
   var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
 
@@ -59,6 +50,8 @@ function validateForm() {
     if (y[i].value == "") {
       // add an "invalid" class to the field:
       y[i].className += " invalid";
+      print("Please fill in the form")
+      // print("msg":"Please fill the form")
       // and set the current valid status to false:
       valid = false;
     }
